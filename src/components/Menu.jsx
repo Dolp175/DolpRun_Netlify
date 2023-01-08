@@ -53,7 +53,6 @@ export const Menu = (props) => {
             <div className="d-flex">
                 <Link to="/" className="btn-item">Main</Link>
                 <Link to="/home" className={`${(UserState.isLogged) ? '' : disabledStyle} btn-item`}>Home</Link>
-                <Link to="/page2" className={`${(UserState.isLogged) ? '' : disabledStyle} btn-item`}>Page2</Link>
                 {
                     !UserState.isLogged &&
                     <button className="btn-item" onClick={handleLogin}><img src={EnterIcon} alt="Loggin" width="24" /> Login</button>

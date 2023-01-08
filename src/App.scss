@@ -10,7 +10,7 @@ body {
 }
 
 .App {
-  background-color: #222f3e;
+  background-color: #144272;
   width: 100%;
   height: 100vh;
   background-image: url("./images/3DK_LOGO.png");
@@ -21,9 +21,9 @@ body {
 $heightMenu: 50px;
 #menu {
   height: $heightMenu;
-  background-color: #11171f;
+  background-color: #0A2647;
   .btn-item {
-    background-color: #11171f;
+    background-color: #0A2647;
     text-align: center;
     width: 100px;
     height: $heightMenu;
@@ -36,7 +36,7 @@ $heightMenu: 50px;
     color: #ff9f43;
     margin-right: -1px;
     &:hover {
-      background-color: #1e2835;
+      background-color: #0A2647;
       color: #feca57;
     }
   }
