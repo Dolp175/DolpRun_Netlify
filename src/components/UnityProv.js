@@ -5,10 +5,10 @@ import { UserService } from '../UserService';
 
 function UnityProv(){
     const { unityProvider, isLoaded, sendMessage } = useUnityContext({
-        loaderUrl: "/Build/dolprun7.loader.js",
-        dataUrl: "/Build/dolprun7.data",
-        frameworkUrl: "/Build/dolprun7.framework.js",
-        codeUrl: "/Build/dolprun7.wasm",
+        loaderUrl: "/Build/dolprun8.loader.js",
+        dataUrl: "/Build/dolprun8.data",
+        frameworkUrl: "/Build/dolprun8.framework.js",
+        codeUrl: "/Build/dolprun8.wasm",
     });
 
     const [data, setData] = useState(null);
